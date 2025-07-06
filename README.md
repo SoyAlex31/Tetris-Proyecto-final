@@ -77,7 +77,47 @@ switch (tolower(_getch())) {
 
 ---
 ##
+## 🖼️ Mockup del tablero (pieza L cayendo)
 
+```
++----------+
+|          |
+|     $    |
+|     $    |
+|     $$   |
+|   ##     |
+|  ####    |
+| ##  ##   |
+|##### ### |
+|..........|
+|####### # |
++----------+
+```
+
+* `$` → pieza en movimiento (forma de L)
+* `#` → bloques fijos ya colocados
+* `.` → línea de game over
+* Espacios vacíos → celdas libres
+## 🖼️ Mockup del tablero (pieza T cayendo)
+
+```
++----------+
+|          |
+|    $$$   |
+|     $    |
+|   ##     |
+|  ####    |
+| ##  ##   |
+|##### ### |
+|..........|
+|####### # |
++----------+
+```
+
+* `$` → pieza en movimiento (forma de T)
+* `#` → bloques fijos ya colocados
+* `.` → línea de game over
+* Espacios vacíos → celdas libres
 ##  Consideraciones técnicas del desarrollo
 
 * **Lenguaje de programación:** C++
