@@ -146,6 +146,5 @@ switch (tolower(_getch())) {
 ## 👥 Integrantes del equipo
 
   * Miguel Leonardo Nuñez Lemus 00070822
-  * 
-  * 
+  * Diego Alexander Perez Reyes 00049825
   * Diego Gerardo Sánchez Valladares 00090725
